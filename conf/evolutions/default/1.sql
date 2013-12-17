@@ -3,7 +3,7 @@
 
 # --- !Ups
 
-create table "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT,"email" VARCHAR(254) NOT NULL);
+create table "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT,"email" VARCHAR(254) NOT NULL,"admin" INTEGER NOT NULL);
 
 # --- !Downs
 

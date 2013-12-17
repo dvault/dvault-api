@@ -1,4 +1,5 @@
 language: scala
 jdk:
   - openjdk7
-  - openjdk6
+after_script:
+  - "sbt coveralls"

@@ -20,5 +20,8 @@ libraryDependencies ++= Seq(
 
 routesImport += "it.dvault.controllers.utils.RouterExt._"
 
-routesImport += "java.util.UUID"
+generateReverseRouter := false
 
+ScoverageSbtPlugin.instrumentSettings
+
+CoverallsPlugin.coverallsSettings

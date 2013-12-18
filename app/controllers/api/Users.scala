@@ -1,5 +1,5 @@
 package it.dvault
-package controllers.api.zerodotone
+package controllers.api
 
 import play.api.mvc.Action
 import play.api.mvc.Controller

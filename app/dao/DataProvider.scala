@@ -9,7 +9,8 @@ trait DataProvider {
 }
 
 object DefaultDataProvider extends DataProvider {
-  def users(implicit session: Session) = new ImplicitSession with UsersDAO {override val implicitSession = session}
+  def users(implicit session: Session) = new ImplicitSession with DefaultUsersDAO {override val implicitSession = session}
+  def usersClients(implicit session: Session) = new ImplicitSession with DefaultUsersClientsDAO {override val implicitSession = session}
 }
 
 

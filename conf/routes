@@ -3,8 +3,8 @@
 # ~~~~
 
 # Home page
-GET     /api/v0.1/users                 it.dvault.controllers.api.zerodotone.Users.index
-POST    /api/v0.1/users                 it.dvault.controllers.api.zerodotone.Users.create
-GET     /api/v0.1/users/:id             it.dvault.controllers.api.zerodotone.Users.get(id: Int)
+GET     /api/users                 it.dvault.controllers.api.Users.index
+POST    /api/users                 it.dvault.controllers.api.Users.create
+GET     /api/users/:id             it.dvault.controllers.api.Users.get(id: Int)
 
 
